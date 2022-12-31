@@ -24,7 +24,7 @@ body {
 }
 
 canvas {
-    border: 20px outset #888;
+    border: 10px outset #888;
 }
 
 .options {
@@ -33,7 +33,7 @@ canvas {
     width: 100vw;
     height: 50px;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1rem;
     justify-content: space-around;
     justify-items: center;
     padding: 10px;
@@ -42,7 +42,7 @@ canvas {
 
 .reset-btn {
     width: 120px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: #888;
     border: 3px solid #888;
     cursor: pointer;

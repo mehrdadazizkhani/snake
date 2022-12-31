@@ -1,5 +1,5 @@
 //Game board variables
-let pixelSize = 25
+let pixelSize = 18
 let rows = 30
 let colmuns = 30
 let board
