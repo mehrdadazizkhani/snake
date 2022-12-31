@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #888;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.status {
+    width: 100vw;
+    height: 100vh;
+    font-size: 6rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+canvas {
+    border: 20px outset #888;
+}
+
+.options {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 10px;
+
+}
+
+.reset-btn {
+    width: 120px;
+    font-size: 1.2rem;
+    background-color: #888;
+    border: 3px solid #888;
+    cursor: pointer;
+    height: 70%;
+    border-radius: 50px;
+}
+
+.options > p {
+    margin: auto 0;
+}
+
+.reset-btn:hover {
+    color: #888;
+    background-color: #111;
+}
